@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+<p align="center"> THIS IS HTML FAM </p>
+{#{{ hithere }}#}
+<form action="{% url 'about' %}">
+    <textarea cols="40" rows="10" name="fulltext"> </textarea>
+    <br />
+    <input type="submit" value="Count">
+
+</form>
+<br />
+<form align="center"  action="{% url 'about' %}">
+
+    <input type="submit" value="About">
+
+</form>
+
+
+</body>
+</html>
